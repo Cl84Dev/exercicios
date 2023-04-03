@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .exercicio {
+        text-align: center;
+        margin: 10px auto;
+        padding: 10px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercícios</h1>
+    <div class="exercicio">
+      <h2>Exercício 1</h2>
+      <p>Resposta:</p>
+      <p id="exercicio1"></p>
+    </div>
+    <div class="exercicio">
+      <h2>Exercício 2</h2>
+      <h3>Verificar se é fibonacci</h3>
+      <label for="fibo"
+        >Entre com um número: <input type="number" id="fibo" value="1"
+      /></label>
+      <button onclick="verificaFibo()">Verificar</button>
+      <p id="resposta">É fibonacci</p>
+    </div>
+    <div class="exercicio">
+      <h2>Exercício 3</h2>
+      <p>a - 9</p>
+      <p>b - 128</p>
+      <p>c - 49</p>
+      <p>d - 100</p>
+      <p>e - 13</p>
+      <p>f - 200</p>
+    </div>
+    <div class="exercicio">
+      <h2>Exercício 4</h2>
+      <p>
+        O carro estará mais perto de Ribeirão preto. Cheguei ao resultado
+        calculando a distância que cada um percorreu em 30 minutos. O carro
+        percorreu 54,9 Km e o caminhão 39,9 Km sem considerar a parada pro
+        pedágio. Isso significa que eles não vão se cruzar antes do km 39,9 em
+        direção à Franca. Sendo assim, o carro estará mais perto.
+      </p>
+    </div>
+    <div class="exercicio">
+      <h2>Exercício 5</h2>
+      <h3>Inverter uma string</h3>
+      <label for="contrario"
+        >Entre com uma string: <input type="text" id="contrario"
+      /></label>
+      <button onclick="inverterCaracteres()">Verificar</button>
+      <p>Resultado: <span id="invertido"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
